@@ -1,0 +1,50 @@
+body {
+    background-image: url(../img/teste.png);
+    font-family: 'Source Serif Pro', serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+    color: black;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+header img {
+    width: 13%;
+}
+.nome-principal {
+    font-size: 50px;
+}
+
+.texto{
+    margin: 3%;
+    font-size: 30px;
+}
+
+button {
+    background-color: #ffffff; /* cor de fundo verde */
+    border: 2px solid #008CBA; /* borda sólida azul */
+    color: rgb(40, 0, 150); /* cor do texto branco */
+    cursor: pointer; /* cursor do mouse de ponteiro */
+    font-family: 'Source Serif Pro', serif; /* fonte Arial */
+    font-size: 16px; /* tamanho da fonte 16px */
+    padding: 12px 24px; /* preenchimento interno do botão */
+    text-align: center; /* centralizar o texto */
+    text-decoration: none; /* sem decoração de texto */
+    display: inline-block; /* exibir como um elemento em linha com bloco */
+    margin: 3%;
+}
+
+button:hover {
+    background-color: #008CBA; /* cor de fundo azul no hover */
+    color: white; /* cor do texto branco no hover */
+}
